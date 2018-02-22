@@ -1,0 +1,52 @@
+
+body {
+  margin: 0; padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+h2 {
+  margin: 0;
+}
+
+#game-win {
+  padding: 50px 0;
+  color: #fff;
+  background: #e74c3c;
+}
+
+h4 {
+  margin-bottom: 10px;
+}
+
+#output p {
+  font-size: 22px;
+  margin-bottom: 0;
+}
+
+.score {
+  font-size: 22px;
+}
+
+.game-output {
+  padding: 80px 0;
+}
+
+.game-core button {
+  margin-right: 40px;
+}
+
+button.disabled {
+  pointer-events: none;
+  background: grey;
+  outline: none;
+  border: none;
+}
+
+#play-again {
+  margin-top: 20px;
+}
+
+.game-core button:last-child {
+  margin-right: 0px;
+}
