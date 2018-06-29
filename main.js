@@ -21,6 +21,7 @@ function computerPlay() {
     return figures[randomize(figures.length)];
 }
 
+
 // Game Round
 function playRound(event) {
     playerSelection = event.target.textContent.toLowerCase();
